@@ -1,5 +1,5 @@
 const CONFIG = {
-    API_ENDPOINT: "http://localhost:3000" 
+    API_ENDPOINT: "http://localhost:8000" 
 };
 
 export default CONFIG;
