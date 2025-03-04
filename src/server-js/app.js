@@ -1,9 +1,10 @@
 import Home from "../views/Home.js";
 import About from "../views/About.js";
-
+import PersonnagesAll from "../views/PersonnagesAll.js";
 const routes = {
     '/': Home,
-    '/about': About
+    '/about': About,
+    '/personnages': PersonnagesAll
 };
 
 const router = async () => {

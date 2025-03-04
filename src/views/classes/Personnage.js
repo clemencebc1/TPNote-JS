@@ -93,4 +93,8 @@ export class Personnage {
     toString() {
         return `Personnage ${this.nom} : pv = ${this.pv}, attaque = ${this.attaque}, défense = ${this.defense}`;
     }
+
+    async render(){
+        return `<div>Mon personnage ${this.nomPersonnage}</div>`;
+    }
 }

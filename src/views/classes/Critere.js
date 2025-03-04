@@ -32,4 +32,8 @@ export class Critere {
             description: this.description
         };
     }
+
+    async render(){
+        return `<div>${this.nomCritere}</div>`;
+    }
 }
